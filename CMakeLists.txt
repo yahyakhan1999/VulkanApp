@@ -10,7 +10,11 @@ find_package(glfw3 3.3 REQUIRED)
 # Find Vulkan package
 find_package(Vulkan REQUIRED)
 
-add_executable(MyVulkanApp src/main.cpp)  # Adjust path if your source is elsewhere
+ add_executable(MyVulkanApp
+    src/main.cpp
+    src/Vertex.cpp        # <- Make sure this is included
+    # other source files
+)
 
 # Link Vulkan and GLFW libraries
 target_link_libraries(MyVulkanApp PRIVATE glfw Vulkan::Vulkan)
