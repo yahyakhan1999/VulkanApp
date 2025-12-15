@@ -13,6 +13,7 @@ cmake .. -DCMAKE_BUILD_TYPE=Release
 
 # Build
 cmake --build . --config Release
+![SpinSquare Screenshot](screenshots/SpinSquare.png)
 
 # Run (Windows)
 .
