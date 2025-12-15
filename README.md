@@ -1,6 +1,7 @@
 # MyProject
 
 A minimal CMake C++ project scaffold.
+![SpinSquare Screenshot](screenshots/SpinSquare.png)
 
 ## Build (PowerShell)
 
@@ -13,7 +14,6 @@ cmake .. -DCMAKE_BUILD_TYPE=Release
 
 # Build
 cmake --build . --config Release
-![SpinSquare Screenshot](screenshots/SpinSquare.png)
 
 # Run (Windows)
 .
@@ -25,3 +25,4 @@ cmake --build . --config Release
 ## Notes
 - Requires CMake 3.15 or newer.
 - Uses C++17.
+
